@@ -10,6 +10,7 @@ License:	GPL
 Group:		Games/Strategy
 URL:		http://gtkatlantic.gradator.net/
 Source:		http://gtkatlantic.gradator.net/downloads/v0.4/%{name}-%{version}.tar.bz2
+Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	gtk+2-devel
 BuildRequires:	png-devel
 BuildRequires:	libxml2-devel

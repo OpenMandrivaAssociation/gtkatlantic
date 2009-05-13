@@ -1,13 +1,13 @@
 %define version 0.4.2
-%define rel	2
+%define rel	3
 %define release %mkrel %rel
 
 Summary:	Monopoly-like game client
 Name:		gtkatlantic
 Version:	%{version}
 Release:	%{release}
-License:	GPL
-Group:		Games/Strategy
+License:	GPLv2+
+Group:		Games/Boards
 URL:		http://gtkatlantic.gradator.net/
 Source:		http://gtkatlantic.gradator.net/downloads/v0.4/%{name}-%{version}.tar.bz2
 Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
@@ -41,7 +41,7 @@ Type=Application
 Exec=%{_gamesbindir}/%{name} 
 Icon=strategy_section 
 Comment=Play Monopoly 
-Categories=BoardGame; 
+Categories=Game;BoardGame;
 Name=GtkAtlantic
 EOF
 

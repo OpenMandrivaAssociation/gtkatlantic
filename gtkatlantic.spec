@@ -1,5 +1,5 @@
 %define version 0.4.2
-%define rel	3
+%define rel	4
 %define release %mkrel %rel
 
 Summary:	Monopoly-like game client

@@ -65,3 +65,46 @@ rm -rf %{buildroot}
 %{_gamesdatadir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.4.2-4mdv2011.0
++ Revision: 619285
+- the mass rebuild of 2010.0 packages
+
+* Wed May 13 2009 Samuel Verschelde <stormi@mandriva.org> 0.4.2-3mdv2010.0
++ Revision: 375264
+- fix Group (fixes #49512)
+- fix Licence
+- fix desktop file
+
+* Thu Jun 12 2008 Pixel <pixel@mandriva.com> 0.4.2-2mdv2009.0
++ Revision: 218421
+- rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.4.2-2mdv2008.1
++ Revision: 131704
+- auto-convert XDG menu entry
+- kill re-definition of %%buildroot on Pixel's request
+- import gtkatlantic
+
+
+* Sun Mar 19 2006 Guillaume Bedot <littletux@zarb.org> 0.4.2-2mdk
+- fix buildrequires to use gtk2
+
+* Sun Mar 19 2006 Guillaume Bedot <littletux@zarb.org> 0.4.2-1mdk
+- 0.4.2
+- fix source URL
+- mkrel
+
+* Thu Dec 02 2004 Abel Cheung <deaddog@mandrake.org> 0.3.3-2mdk
+- Fix BuildRequires
+
+* Mon Jun 28 2004 Lenny Cartier <lenny@mandrakesoft.com> 0.3.3-1mdk
+- 0.3.3
+
+* Wed Jun 09 2004 Abel Cheung <deaddog@deaddog.org> 0.3.2-1mdk
+- First Mandrake package

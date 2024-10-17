@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPLv2+
 Group:		Games/Boards
-URL:		http://gtkatlantic.gradator.net/
+URL:		https://gtkatlantic.gradator.net/
 Source:		http://gtkatlantic.gradator.net/downloads/v0.4/%{name}-%{version}.tar.bz2
 Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	gtk+2-devel
